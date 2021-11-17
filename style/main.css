@@ -1,0 +1,149 @@
+/* Elementos base */
+
+/* Zera as margens e padding de todo o documento (colocados pelo navegador) e limita os elementos ao espaço definido */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    font-family: sans-serif;
+}
+
+header .wrapper {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+
+    /* Alinha os ítens do menu com o logo na horizontal */
+    align-items: center;
+}
+
+header .container {
+    /* Coloca espaço entre as diferentes classes de elementos: o menu esquerdo e o menu direito */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 8px 0;
+}
+
+header .logo {
+    height: 40px;
+    margin: 7px 30px;
+    margin-left: 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+/* Quando o mouse estiver em cima do elemento */
+
+header nav a:hover {
+    color: #fff;
+}
+
+
+header .user {
+    height: 40px;
+    margin: 0 10px;
+}
+
+.fas {
+    margin: 0 10px;
+} 
+
+/* Filme principal */
+
+.destaque {
+    color: #fff;
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/destaque.jpg');
+    height: 510px;
+    background-size: cover;
+    display: flex;
+    margin-bottom: 35px;
+
+    /* Faz com que os elementos formem uma coluna */
+    flex-direction: column;
+
+    /* Centraliza os elementos na vertical */
+    justify-content: center;
+
+    /* Faz com que os elementos comecem da esquerda (início do flexbox) */
+    align-items: flex-start;
+}
+
+.destaque .container {
+
+    /* Trabalhar com porcentagem é interessante para tornar a página mais responsiva */
+    width: 45%;
+}
+
+.destaque .titulo {
+    height: 110px;
+}
+
+.destaque .infos {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.destaque .descricao {
+    margin-top: 10px;
+}
+
+.destaque .creditos {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.destaque .botao {
+    border: none;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 15px;
+    width: 180px;
+
+    /* Espaço interno do elemento */
+    padding: 15px 10px;
+
+    /* Para o cursor mudar ao passar por cima */
+    cursor: pointer;
+
+    /* Para que a mudança das cores não seja tão brusca */
+    transition: .3s ease all;
+}
+
+.botao i {
+    margin-right: 6px;
+}
+
+.destaque .botao:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Se aplica a todas as classes "container", o que é bom para alinhar os elementos */
+.container {
+    margin-left: 30px;
+}
+
+/* Carrossel */
+.estilos {
+    color: #fff;
+    margin: 0px 15px 10px 15px;
+    font-size: 17px;
+}
+
+
+.box-filme {
+    display: block;
+}

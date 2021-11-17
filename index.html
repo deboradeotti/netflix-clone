@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- Arquivos Owl CSS -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!-- Responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>Netflix</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="wrapper left">
+                <img class="logo" src="img/netflix-logo.png">
+                <nav>
+                    <a href="#">Início</a>
+                    <a href="#series">Séries</a>
+                    <a href="#filmes">Filmes</a>
+                    <a href="#minha-lista">Minha lista</a>
+                </nav>
+            </div>
+            <div class="wrapper right">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-bell"></i>
+                <img class="user" src="img/user.png">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="destaque">
+
+            <!-- Filha direta da div destaque e herda suas configurações -->
+            <div class="container">
+                <img class="titulo" src="img/bojack-logo.png">
+                <p class="infos">2014 | 16 | 6 temporadas | Séries dos EUA</p>
+                <p class="descricao">Conheça o cavalo mais amado da TV dos anos 90... vinte anos depois! Ranzinza e com um coração de... não exatamente ouro... mas parecido. Latão?</p>
+                <p class="creditos">Estrelando: Will Arnett, Aaron Paul, Amy Sedaris<br>Criação: Raphael Bob-Waksberg</p>
+
+                <!-- Toda div nova vem com o display block por padrão; a div botões não herda da div destaque  pois não é sua filha direta -->
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        Assistir
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-plus"></i>
+                        Minha lista
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        Mais informações 
+                    </button>
+                </div>
+                
+            </div>
+       
+        </div>
+    </main>
+
+    <div class="carrossel">
+
+        <section id="series">
+
+            <p class="estilos">Séries</p>
+
+            <div class="owl-carousel owl-theme series">
+                <div class="item">
+                    <img class="box-filme" src="img/mini-bojack.jpg" alt="Bojack Horseman">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-breaking-bad.jpg" alt="Breaking Bad">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-twin-peaks.jpg" alt="Twin Peaks">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-crazy-ex.jpg" alt="Crazy Ex-Girlfriend">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-mare-of.jpg" alt="Mare of Easttown">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-gilmore-girls.jpg" alt="Gilmore Girls">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-i-may.jpg" alt="I May Destroy You">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-little-fires.jpg" alt="Little Fires Everywhere">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-dark.jpg" alt="Dark">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-how-i-met.jpg" alt="How I Met Your Mother">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-sherlock.jpg" alt="Sherlock">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-russian-doll.jpg" alt="Russian Doll">
+                </div>
+            </div>
+
+        </section>
+
+        <section id="filmes">
+
+            <p class="estilos">Filmes</p>
+
+            <div class="owl-carousel owl-theme filmes">
+                <div class="item">
+                    <img class="box-filme" src="img/mini-clube-da-luta.jpg" alt="Clube da Luta">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-tenenbaums.jpg" alt="The Royal Tenenbaums">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-brilho-eterno.jpg" alt="Brilho Eterno de Uma Mente Sem Lembranças">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-beleza-americana.jpg" alt="Beleza Americana">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-donnie-darko.jpg" alt="Donnie Darko">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-a-origem.jpg" alt="A Origem">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-ilha-do-medo.jpg" alt="Ilha do Medo">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-pulp-fiction.jpg" alt="Pulp Fiction">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-natural-born-killers.jpg" alt="Natural Born Killers">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-amelie.jpg" alt="O Fabuloso Destino de Amelie Poulain">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-star-wars.jpg" alt="Star Wars">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-four-weddings.jpg" alt="Four Weddings and a Funeral">
+                </div>
+            </div>
+
+        </section>
+
+        <section id="minha-lista">
+
+            <p class="estilos">Minha lista</p>
+
+            <div class="owl-carousel owl-theme minha-lista">
+                <div class="item">
+                    <img class="box-filme" src="img/mini-community.jpg" alt="Community">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-mr-robot.jpg" alt="Mr. Robot">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-true-romance.jpg" alt="True Romance">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-beetlejuice.jpg" alt="Beetlejuice">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-girls.jpg" alt="Girls">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-blue-velvet.jpg" alt="Blue Velvet">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-worst.jpg" alt="You're the Worst">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-succession.jpg" alt="Succession">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-amiga-genial.jpg" alt="A Amiga Genial">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-senhor-dos-aneis.jpg" alt="Senhor dos Anéis">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini-bastardos-inglorios.jpg" alt="Bastardos Inglórios">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/whiplash.jpg" alt="Whiplash">
+                </div>
+            </div>
+    
+        </section>
+
+    </div>
+
+    <!-- É interessante colocar os links para o JS no fim do documento porque a página carrega de forma sequencial -->
+    <script src="https://kit.fontawesome.com/1a2fed3632.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+</html>
