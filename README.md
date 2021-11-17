@@ -2,11 +2,6 @@
 
 <h1>🎬 Netflix Clone</h1>
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Deb-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Deb-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-</div>
-
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-screenshots">Screenshots</a> •
@@ -18,7 +13,8 @@
 <p>Projeto de clone da página principal do Netflix realizado para estudo, utilizando HTML e CSS.</p>
 
 <h2 class="screenshots">📸 Screenshots</h2>
-<iframe class="imgur-embed" width="100%" height="810" frameborder="0" src="https://i.imgur.com/PbjmE20.gifv#embed"></iframe>
+
+[Imgur](https://i.imgur.com/PbjmE20.gifv)
 
 <h2 class="tecnologias">🛠️ Tecnologias</h2>
 
