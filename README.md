@@ -5,7 +5,7 @@
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-screenshots">Screenshots</a> •
- <a href="#-tecnologias">Tecnologias</a> •  
+ <a href="#%EF%B8%8F-tecnologias">Tecnologias</a> •  
  <a href="#-autoria">Autoria</a>
 </p>
 
@@ -13,7 +13,7 @@
 <p>Projeto de clone da página principal do Netflix realizado para estudo, utilizando HTML e CSS.</p>
 
 <h2 class="screenshots">📸 Screenshots</h2>
-<img scr="https://i.imgur.com/PbjmE20.gifv">
+<img align="center" src="img/tela2.png">
 
 <h2 class="tecnologias">🛠️ Tecnologias</h2>
 
