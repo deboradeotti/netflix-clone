@@ -1,19 +1,7 @@
 <img align="center" src="img/tela1.png">
 
-<h1>🎬 Netflix Clone</h1>
-
-<p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-screenshots">Screenshots</a> •
- <a href="#%EF%B8%8F-tecnologias">Tecnologias</a> •  
- <a href="#-autoria">Autoria</a>
-</p>
-
 <h2 class="sobre">💻 Sobre o projeto</h2>
 <p>Projeto de clone da página principal do Netflix realizado para estudo, utilizando HTML e CSS.</p>
-
-<h2 class="screenshots">📸 Screenshots</h2>
-<img align="center" src="img/tela2.png">
 
 <h2 class="tecnologias">🛠️ Tecnologias</h2>
 
