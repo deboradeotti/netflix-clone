@@ -5,6 +5,11 @@
         flex-direction: column;
     }
 
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
     .destaque .botao {
         margin-top: 5px;
         width: 220px;

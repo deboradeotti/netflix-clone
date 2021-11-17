@@ -14,7 +14,7 @@ body {
 }
 
 header .wrapper {
-    color: #fff;
+    color: #aaa;
     display: flex;
     flex-direction: row;
     margin-right: 30px;
@@ -52,12 +52,17 @@ header nav a:hover {
 
 header .user {
     height: 40px;
-    margin: 0 10px;
+    margin: 5px;
 }
 
 .fas {
     margin: 0 10px;
+    cursor: pointer;
 } 
+
+.wrapper .fas:hover {
+    color: #fff;
+}
 
 /* Filme principal */
 
@@ -146,4 +151,12 @@ header .user {
 
 .box-filme {
     display: block;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    margin: 60px;
+    font-size: 14px;
+    font-style: italic;
 }
