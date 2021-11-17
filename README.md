@@ -13,8 +13,7 @@
 <p>Projeto de clone da página principal do Netflix realizado para estudo, utilizando HTML e CSS.</p>
 
 <h2 class="screenshots">📸 Screenshots</h2>
-
-[Imgur](https://i.imgur.com/PbjmE20.gifv)
+<img scr="https://i.imgur.com/PbjmE20.gifv">
 
 <h2 class="tecnologias">🛠️ Tecnologias</h2>
 
