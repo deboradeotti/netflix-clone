@@ -1,8 +1,12 @@
+<h1>🍿 Netflix Clone</h1>
+
 <img align="center" src="img/tela1.png">
 <img align="center" src="img/tela2.png">
 
 <h2 class="sobre">💻 Sobre o projeto</h2>
 <p>Projeto de clone da página principal do Netflix realizado para estudo, utilizando HTML e CSS.</p>
+
+[Acessar](https://deboradeotti.github.io/netflix-clone/)
 
 <h2 class="tecnologias">🛠️ Tecnologias</h2>
 
